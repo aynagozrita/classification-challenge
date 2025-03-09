@@ -23,8 +23,8 @@ This challenge involves analyzing a dataset for spam classification using two di
   • Calculate and print the model's accuracy score using a random state of 1.
 ## Results
 After executing the models, compare their accuracy scores to determine which model performed better:
-  • Logistic Regression Model Accuracy: 0.5161 (51.61%)
-  • Random Forest Classifier Accuracy: 1.0 (100%)
+  • Logistic Regression Model Accuracy: 0.92 (92%)
+  • Random Forest Classifier Accuracy: 0.96 (96%)
 ## Conclusion
-The Random Forest Classifier outperformed the Logistic Regression model in terms of accuracy, achieving a perfect score of 100%. However, such high accuracy might indicate overfitting, where the model learns the noise in the training data rather than generalized patterns. 
-In contrast, the Logistic Regression model displayed a lower accuracy of 51.61%, suggesting that the data may not be linearly separable, which is a limitation of the Logistic Regression algorithm. 
+The Random Forest model is superior in terms of accuracy as it captures complex interactions between features and offers greater flexibility.
+The Logistic Regression model performed well, achieving an accuracy of 92%. However, it may struggle when the relationships between features are more complex or non-linear, as it relies on the assumption of linear separability. 
